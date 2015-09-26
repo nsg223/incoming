@@ -1,0 +1,48 @@
+.countdown-item {
+  display:inline-block;
+  background-color:transparent;
+  color:#fff;
+  text-align:center
+}
+
+@media (min-width: 768px) {
+.countdown-item {
+  padding:15px;
+  margin:10px
+}
+
+.countdown-number {
+  font-size:75px
+}
+
+.countdown-tag {
+  font-size:25px
+}
+
+.countdown {
+  margin-top:15px;
+  margin-bottom:25px;
+  width:100%
+}
+}
+
+@media (max-width: 768px) {
+.countdown-item {
+  padding:15px;
+  margin:10px
+}
+
+.countdown-number {
+  font-size:45px
+}
+
+.countdown-tag {
+  font-size:15px
+}
+
+.countdown {
+  margin-top:15px;
+  margin-bottom:25px;
+  width:100%
+}
+}
